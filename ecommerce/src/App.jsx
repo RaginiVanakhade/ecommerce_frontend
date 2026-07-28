@@ -1,11 +1,19 @@
-
 import './App.css'
+import { Routes, Route } from "react-router-dom"
+
 
 function App() {
 
   return (
     <>
-hello
+      <Routes>
+
+        <Route 
+          path="/" 
+          element={<h1>Hello</h1>} 
+        />
+
+      </Routes>
     </>
   )
 }
